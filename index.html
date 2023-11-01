@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hack Me</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		.a1 {
+			display: grid;
+			min-height: 100vh;
+			place-items: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="id1" class="a1"></div>
+	<script>
+		eval("id1.innerText = 'hack me';");
+	</script>
+</body>
+</html>
